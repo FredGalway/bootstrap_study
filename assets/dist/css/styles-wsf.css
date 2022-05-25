@@ -1,58 +1,67 @@
-/*
-body {
-    background-color: rgb(4, 4, 100);
+/* WSF Styles */
+
+
+/* Couleurs charte 
+-------------------------------------------------------------------------------------------------------- */
+
+.blue {
+    color: #00AEEF;
 }
 
-h1 {
-    position: absolute;
-    top: 40%;
+
+/* Carousel images
+-------------------------------------------------------------------------------------------------------- */
+
+.carousel-banner-img-1 {
     width: 100%;
-    font-family: "Helvetica";
-    font-style: normal;
-    font-size: x-large;
-    text-align: center;
-    color: white;
+    height: 100%;
+    background-image: url("img/caroussel-banner-img-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Cover allows to display the background image in full size */
+    background-size: cover;
 }
 
-p {
-    position: absolute;
-    top: 43%;
+.carousel-banner-img-2 {
     width: 100%;
-    font-family: "Helvetica";
-    font-style: normal;
-    font-size: x-large;
-    text-align: center;
-    color: white;
-}
-
-*/
-
-.carousel-banner-img-1{
-    width:100%;
-    height:100%;
-    background-image:url("img/caroussel-banner-img-1.png");
+    height: 100%;
+    background-image: url("img/caroussel-banner-img-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     /* Cover allows to display the background image in full size */
     background-size: cover;
 }
 
-.carousel-banner-img-2{
-    width:100%;
-    height:100%;
-    background-image:url("img/caroussel-banner-img-1.png");
+.carousel-banner-img-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("img/caroussel-banner-img-3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     /* Cover allows to display the background image in full size */
     background-size: cover;
 }
 
-.carousel-banner-img-3{
-    width:100%;
-    height:100%;
-    background-image:url("img/caroussel-banner-img-1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Cover allows to display the background image in full size */
-    background-size: cover;
+
+/* Partie Logo et accroches 
+-------------------------------------------------------------------------------------------------------- */
+
+.logo-wsf {
+    font-family: 'Helvetica';
+    font-weight: 900;
+    font-style: italic;
+    font-size: 42px;
+    color: #fff;
+}
+
+.shadow {
+    text-shadow: 3px 2px 4px rgba(4, 85, 151, 0.84);
+}
+
+
+/* HAUTEUR DU LOGO ET DES ACCROCHES DANS LE CAROUSEL */
+
+.carousel-caption {
+    bottom: 13.1rem;
+    z-index: 10;
 }
