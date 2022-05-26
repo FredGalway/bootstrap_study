@@ -9,6 +9,17 @@
 }
 
 
+/* Navigation 
+-------------------------------------------------------------------------------------------------------- */
+
+
+/* Alignement des items à droite */
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
 /* Carousel images
 -------------------------------------------------------------------------------------------------------- */
 
@@ -46,22 +57,64 @@
 /* Partie Logo et accroches 
 -------------------------------------------------------------------------------------------------------- */
 
+@font-face {
+    font-family: 'Helvetica';
+    src: url('font/Helvetica-BlackOblique.eot');
+    src: url('font/Helvetica-BlackOblique.eot?#iefix') format('embedded-opentype'), url('font/Helvetica-BlackOblique.woff2') format('woff2'), url('font/Helvetica-BlackOblique.woff') format('woff'), url('font/Helvetica-BlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
 .logo-wsf {
     font-family: 'Helvetica';
     font-weight: 900;
     font-style: italic;
-    font-size: 42px;
     color: #fff;
+    /* Chrome, Safari, Edge */
 }
 
-.shadow {
-    text-shadow: 3px 2px 4px rgba(4, 85, 151, 0.84);
+.logo-wsf .nav {
+    font-size: 32px;
+}
+
+.logo-wsf .carousel {
+    font-size: 42px;
+}
+
+.logo-sigle {
+    display: inline-block;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 10px;
+    margin-left: -60px;
+    background-image: url("img/logo-sigle.svg");
+    background-repeat: no-repeat;
+}
+
+
+/* hack du sigle pour Firefox */
+
+@-moz-document url-prefix() {
+    .logo-sigle {
+        top: 7px;
+    }
+}
+
+
+/* hack du sigle pour Safari */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .logo-sigle {
+        top: 7px;
+    }
 }
 
 
 /* HAUTEUR DU LOGO ET DES ACCROCHES DANS LE CAROUSEL */
 
 .carousel-caption {
-    bottom: 13.1rem;
+    bottom: 9.8rem;
     z-index: 10;
 }
