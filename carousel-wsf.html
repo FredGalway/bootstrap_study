@@ -10,19 +10,28 @@
     <title>WSF</title>
 
     <!-- Personnalisation des styles bootstrap pour intégrer mes maquettes -->
+
     <link href="assets/dist/css/bootstrap-wsf.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/dist/css/carousel.css" rel="stylesheet">
 
+    <!-- CSS Fonts -->
+    <link href="assets/dist/css/fonts.css" rel="stylesheet">
+
     <!-- Intégration des styles complémentaires pour WSF -->
     <link href="assets/dist/css/styles-wsf.css" rel="stylesheet">
+
+    <!-- Intégration d'un script complémentaires pour WSF -->
+    <script src="assets/dist/js/script-wsf.js"></script>
+
+    <link rel="preload" href="autreplanetesocialnet.woff2" as="font" type="font/woff2" crossorigin>
 
 </head>
 
 <body>
 
-    <header>
+    <header id="header">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand logo-wsf nav" href="#"><span class="logo-sigle">&nbsp;</span>
@@ -35,31 +44,39 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Évènement</a>
+                            <a class="nav-link" href="#header">Évènement</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Présentation</a>
+                            <a class="nav-link" href="#headings">Présentation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">L'Équipe</a>
+                            <a class="nav-link" href="#headings">L'Équipe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Location</a>
+                            <a class="nav-link" href="#headings">Location</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Cours</a>
+                            <a class="nav-link" href="#headings">Cours</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Localisation</a>
+                            <a class="nav-link" href="#headings">Localisation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Réservation</a>
+                            <a class="nav-link" href="#headings">Réservation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Partenaires</a>
+                            <a class="nav-link" href="#footer">Partenaires</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Social Networks</a>
+                    </ul>
+                    <ul class="sn">
+                        <li>
+                            <a href="#footer">&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="#footer">&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="#footer">&nbsp;</a>
                         </li>
                     </ul>
                     <!--
@@ -149,7 +166,7 @@
         <div class="container marketing">
 
             <!-- Three columns of text below the carousel -->
-            <div class="row">
+            <div id="headings" class="row">
                 <div class="col-lg-4">
                     <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
@@ -184,7 +201,7 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted sn">It’ll blow your mind.</span></h2>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
                 </div>
                 <div class="col-md-5">
@@ -228,7 +245,7 @@
 
 
         <!-- FOOTER -->
-        <footer class="container">
+        <footer id="footer" class="container">
             <p class="float-end"><a href="#">Back to top</a></p>
             <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>

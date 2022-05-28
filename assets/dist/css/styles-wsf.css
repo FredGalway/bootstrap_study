@@ -1,120 +1,237 @@
-/* WSF Styles */
-
-
-/* Couleurs charte 
+        /* WSF CSS STYLES */
+        /* hack du sigle pour Firefox */
+        
+        @-moz-document url-prefix() {
+            .logo-sigle {
+                top: 7px;
+            }
+            body {
+                font-family: Roboto;
+                font-weight: 200;
+                font-style: normal;
+                color: #fff;
+                /* Chrome, Safari, Edge */
+            }
+        }
+        /* hack du sigle pour Safari */
+        
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .logo-sigle {
+                top: 7px;
+            }
+            body {
+                font-family: "helvetica";
+                font-weight: 200;
+                font-style: normal;
+                color: #fff;
+                /* Chrome, Safari, Edge */
+            }
+        }
+        /* Fonts / Body bootstrap
 -------------------------------------------------------------------------------------------------------- */
-
-.blue {
-    color: #00AEEF;
-}
-
-
-/* Navigation 
+        
+         :root {
+            /* Ajour de ma liste de fonts pour WSF / Sans Serif et Monospace */
+            /* COPY 
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    */
+            --bs-font-sans-serif: "Helvetica";
+            --bs-font-monospace: "SFCompact-light", "SFCompact-light-italic", "SFCompact-medium", "SFCompact-semibold", "autre-planete-icons-socialnet";
+            /* Appel à ma liste des fonts personnelle et personnalisation */
+            --bs-body-font-family: var(--bs-font-monospace);
+            --bs-body-font-size: 16px;
+            --bs-body-font-weight: 100;
+            --bs-body-line-height: 1.5;
+            --bs-navbar-font-family: var(--bs-font-sans-serif);
+        }
+        /* Link page 
 -------------------------------------------------------------------------------------------------------- */
-
-
-/* Alignement des items à droite */
-
-.navbar-collapse {
-    flex-grow: 0;
-}
-
-
-/* Carousel images
+        
+        a,
+        a:link,
+        a:visited {
+            color: rgba(255, 255, 255, 1);
+        }
+        
+        a:active,
+        input:focus,
+        a:hover,
+        .active a {
+            color: #00AEEF !important;
+        }
+        /* Couleurs charte 
 -------------------------------------------------------------------------------------------------------- */
-
-.carousel-banner-img-1 {
-    width: 100%;
-    height: 100%;
-    background-image: url("img/caroussel-banner-img-1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Cover allows to display the background image in full size */
-    background-size: cover;
-}
-
-.carousel-banner-img-2 {
-    width: 100%;
-    height: 100%;
-    background-image: url("img/caroussel-banner-img-2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Cover allows to display the background image in full size */
-    background-size: cover;
-}
-
-.carousel-banner-img-3 {
-    width: 100%;
-    height: 100%;
-    background-image: url("img/caroussel-banner-img-3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    /* Cover allows to display the background image in full size */
-    background-size: cover;
-}
-
-
-/* Partie Logo et accroches 
+        
+        .blue {
+            color: #00AEEF;
+        }
+        
+        .yellow {
+            color: #FFCC04;
+        }
+        
+        .red {
+            color: #EE2E3B;
+        }
+        
+        .white {
+            color: #FFF;
+        }
+        
+        .grey {
+            color: #333;
+        }
+        /* Navigation 
 -------------------------------------------------------------------------------------------------------- */
-
-@font-face {
-    font-family: 'Helvetica';
-    src: url('font/Helvetica-BlackOblique.eot');
-    src: url('font/Helvetica-BlackOblique.eot?#iefix') format('embedded-opentype'), url('font/Helvetica-BlackOblique.woff2') format('woff2'), url('font/Helvetica-BlackOblique.woff') format('woff'), url('font/Helvetica-BlackOblique.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-.logo-wsf {
-    font-family: 'Helvetica';
-    font-weight: 900;
-    font-style: italic;
-    color: #fff;
-    /* Chrome, Safari, Edge */
-}
-
-.logo-wsf .nav {
-    font-size: 32px;
-}
-
-.logo-wsf .carousel {
-    font-size: 42px;
-}
-
-.logo-sigle {
-    display: inline-block;
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    top: 10px;
-    margin-left: -60px;
-    background-image: url("img/logo-sigle.svg");
-    background-repeat: no-repeat;
-}
-
-
-/* hack du sigle pour Firefox */
-
-@-moz-document url-prefix() {
-    .logo-sigle {
-        top: 7px;
-    }
-}
-
-
-/* hack du sigle pour Safari */
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    .logo-sigle {
-        top: 7px;
-    }
-}
-
-
-/* HAUTEUR DU LOGO ET DES ACCROCHES DANS LE CAROUSEL */
-
-.carousel-caption {
-    bottom: 9.8rem;
-    z-index: 10;
-}
+        /* Alignement des items à droite */
+        
+        .navbar-collapse {
+            flex-grow: 0;
+        }
+        /* couleur des items */
+        
+        .navbar-dark {
+            --bs-navbar-color: #00AEEF;
+            --bs-navbar-hover-color: #00AEEF;
+            --bs-navbar-disabled-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .navbar-nav .show>.nav-link,
+        .navbar-nav .nav-link.active {
+            /*color: var(--bs-navbar-active-color);*/
+            color: #00AEEF;
+        }
+        /* Social Network Icons */
+        
+        .sn {
+            list-style: none;
+            margin-right: 15px;
+        }
+        
+        .sn li {
+            display: block;
+            float: left;
+            padding: 0;
+            margin-left: 15px;
+            margin-top: 5px;
+            margin-bottom: -8px;
+        }
+        
+        .sn li a {
+            display: block;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            /*color: #00AEEF;*/
+        }
+        
+        .sn li:nth-child(1) a {
+            background-image: url("img/nav-facebook-icon.svg");
+        }
+        
+        .sn li:nth-child(1) a:hover {
+            background-image: url("img/nav-facebook-icon-blue.svg");
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+        }
+        
+        .sn li:nth-child(2) a {
+            background-image: url("img/nav-pinterest-icon.svg");
+        }
+        
+        .sn li:nth-child(2) a:hover {
+            background-image: url("img/nav-pinterest-icon-blue.svg");
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+        }
+        
+        .sn li:nth-child(3) a {
+            background-image: url("img/nav-youtube-icon.svg");
+        }
+        
+        .sn li:nth-child(3) a:hover {
+            background-image: url("img/nav-youtube-icon-blue.svg");
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+        }
+        /* 
+        Carousel images
+-------------------------------------------------------------------------------------------------------- */
+        
+        .carousel-banner-img-1 {
+            width: 100%;
+            height: 100%;
+            background-image: url("img/caroussel-banner-img-1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            /* Cover allows to display the background image in full size */
+            background-size: cover;
+        }
+        
+        .carousel-banner-img-2 {
+            width: 100%;
+            height: 100%;
+            background-image: url("img/caroussel-banner-img-2.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            /* Cover allows to display the background image in full size */
+            background-size: cover;
+        }
+        
+        .carousel-banner-img-3 {
+            width: 100%;
+            height: 100%;
+            background-image: url("img/caroussel-banner-img-3.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            /* Cover allows to display the background image in full size */
+            background-size: cover;
+        }
+        /* Partie Logo et accroches 
+-------------------------------------------------------------------------------------------------------- */
+        
+        .logo-wsf {
+            font-family: 'Helvetica';
+            font-weight: 900;
+            font-style: italic;
+            margin-top: -7px;
+            /* Chrome, Safari, Edge */
+        }
+        
+        .navbar-brand {
+            display: block;
+            margin-left: 70px;
+            font-size: 30px;
+        }
+        
+        .logo-wsf .nav {
+            font-size: 32px;
+        }
+        
+        .logo-wsf .carousel {
+            font-size: 42px;
+        }
+        
+        .logo-sigle {
+            display: inline-block;
+            position: absolute;
+            width: 38px;
+            height: 38px;
+            top: 10px;
+            margin-left: -60px;
+            background-image: url("img/logo-sigle.svg");
+            background-repeat: no-repeat;
+        }
+        /* HAUTEUR DU LOGO ET DES ACCROCHES DANS LE CAROUSEL */
+        
+        .carousel-caption {
+            bottom: 9.8rem;
+            z-index: 10;
+        }
