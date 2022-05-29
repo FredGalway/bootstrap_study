@@ -1,19 +1,13 @@
-//alert("Hello! I am an alert box!!");
+// MENU Topple Icons : burger / close
 
-//Fix navigation menu active links
+function topple() {
 
-/*
-var myCollapseEl = document.getElementById('myCollapse')
+    if (document.title == "WSF") {
+        document.getElementById("navbar-bt-menu").style.backgroundImage = "url('assets/dist/css/img/nav-bt-close.svg')";
+        document.title = "WSF.";
 
-myCollapseEl.addEventListener('shown.bs.collapse', function(event) {
-    // Action to execute once the collapsible area is expanded
-    document.getElementById('navbarCollapse').style.color = "green";
-})
-*/
-function init() {
-    document.getElementById("nav-socialnetwork-icon1").src = '../css/img/nav-facebook-icon-blue.svg';
-
+    } else if (document.title == "WSF.") {
+        document.getElementById("navbar-bt-menu").style.backgroundImage = "url('assets/dist/css/img/nav-bt-open.svg')";
+        document.title = "WSF";
+    }
 }
-
-
-window.onload = init();
