@@ -1,3 +1,5 @@
+// partie HEADER et NAV ------------------------------------------------------------------
+
 // MENU Topple Icons : burger / close
 
 function toggle() {
@@ -15,9 +17,14 @@ function toggle() {
     }
 }
 
-// Pour les interfaces mobiles, lancement des fonctions ci-dessous.
-// Fermeture automatique du menu bootstrap depuis fonction Jquery 
+// Pour les interfaces mobiles, lancement des fonctions ci-dessous:
+
+// collapseMenu() --> Fermeture automatique du menu bootstrap depuis fonction Jquery 
 // Appel à ma fonction toggle() pour basculement automatique d'icône
+// Réinitialisation des paramètres d'icônes
+
+// Intégration de collapseMenu() dans une fonction resize jQuery
+
 
 function collapseMenu() {
 
@@ -45,4 +52,4 @@ $([document, window]).on('ready resize', function(e) {
     }
 });
 
-// Fin partie HEADER et NAV
+// Fin partie HEADER et NAV --------------------------------------------------------------
