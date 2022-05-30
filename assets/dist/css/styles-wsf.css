@@ -21,23 +21,6 @@
 }
 
 
-/* Link page 
--------------------------------------------------------------------------------------------------------- */
-
-a,
-a:link,
-a:visited {
-    /* color: rgba(255, 255, 255, 1); */
-}
-
-a:active,
-input:focus,
-a:hover,
-.active a {
-    /*  color: #00AEEF !important; */
-}
-
-
 /* Couleurs charte 
 -------------------------------------------------------------------------------------------------------- */
 
@@ -76,20 +59,17 @@ a:hover,
 /* couleur des items */
 
 .navbar-dark {
-    /*
-    --bs-navbar-color: #00AEEF;
-    --bs-navbar-hover-color: #00AEEF;
-    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.5);
-    */
     --bs-navbar-color: none;
     --bs-navbar-hover-color: none;
     --bs-navbar-disabled-color: none;
 }
 
-.navbar-nav .show>.nav-link,
-.navbar-nav .nav-link.active {
-    /*color: var(--bs-navbar-active-color);*/
-    /* color: #00AEEF;*/
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #00AEEF;
 }
 
 
@@ -123,10 +103,10 @@ a:hover,
 
 .sn li:nth-child(1) a:hover {
     background-image: url("img/nav-facebook-icon-blue.svg");
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .sn li:nth-child(2) a {
@@ -135,10 +115,10 @@ a:hover,
 
 .sn li:nth-child(2) a:hover {
     background-image: url("img/nav-pinterest-icon-blue.svg");
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .sn li:nth-child(3) a {
@@ -147,10 +127,10 @@ a:hover,
 
 .sn li:nth-child(3) a:hover {
     background-image: url("img/nav-youtube-icon-blue.svg");
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 
@@ -183,6 +163,7 @@ a:hover,
         padding-bottom: -30px;
         line-height: 2em;
         text-align: center;
+        color: white;
     }
     .nav-item a:hover {
         background-color: #00AEEF;
@@ -206,10 +187,6 @@ a:hover,
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        opacity: 0.5;
-    }
-    .sn li a:hover {
-        opacity: 1;
     }
 }
 
