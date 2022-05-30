@@ -44,3 +44,5 @@ $([document, window]).on('ready resize', function(e) {
 
     }
 });
+
+// Fin partie HEADER et NAV
