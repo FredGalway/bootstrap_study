@@ -1,6 +1,6 @@
 // MENU Topple Icons : burger / close
 
-function topple() {
+function toggle() {
 
     if (document.title == "WSF") {
         document.getElementById("navbar-bt-menu").style.backgroundImage = "url('assets/dist/css/img/nav-bt-close.svg')";
