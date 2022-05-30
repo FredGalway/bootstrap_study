@@ -77,7 +77,9 @@
 
 .sn {
     list-style: none;
+    list-style-type: none;
     margin-right: 15px;
+    font-family: 'social-network';
 }
 
 .sn li {
@@ -87,46 +89,23 @@
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: -8px;
+    ;
 }
 
 .sn li a {
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
-    /*color: #00AEEF;*/
+    color: white;
+    font-size: 46px;
+    line-height: 46px;
+    clip-path: circle(26px at 25px);
+    overflow: hidden;
 }
 
-.sn li:nth-child(1) a {
-    background-image: url("img/nav-facebook-icon.svg");
-}
-
-.sn li:nth-child(1) a:hover {
-    background-image: url("img/nav-facebook-icon-blue.svg");
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.sn li:nth-child(2) a {
-    background-image: url("img/nav-pinterest-icon.svg");
-}
-
-.sn li:nth-child(2) a:hover {
-    background-image: url("img/nav-pinterest-icon-blue.svg");
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.sn li:nth-child(3) a {
-    background-image: url("img/nav-youtube-icon.svg");
-}
-
-.sn li:nth-child(3) a:hover {
-    background-image: url("img/nav-youtube-icon-blue.svg");
+.sn li a:hover {
+    color: #00AEEF;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -173,6 +152,8 @@
         display: flex;
         justify-content: center;
         padding: 40px 0 60px 0;
+        font-size: 70px;
+        overflow: hidden;
     }
     .sn li {
         display: block;
@@ -184,9 +165,12 @@
     }
     .sn li a {
         display: block;
-        width: 60px;
-        height: 60px;
+        width: 57px;
+        height: 57px;
         border-radius: 50%;
+        font-size: 75px;
+        line-height: 75px;
+        clip-path: circle(30px at 32px);
     }
 }
 

@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'social-network';
-    src: url('social-network.eot');
-    src: url('social-network.eot?#iefix') format('embedded-opentype'), url('social-network.woff2') format('woff2'), url('social-network.woff') format('woff'), url('social-network.ttf') format('truetype');
+    src: url('font/sn/social-network.eot');
+    src: url('font/sn/social-network.eot?#iefix') format('embedded-opentype'), url('font/sn/social-network.woff2') format('woff2'), url('font/sn/social-network.woff') format('woff'), url('font/sn/social-network.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -30,7 +30,7 @@
 @font-face {
     font-family: 'SFCompact-light';
     src: url('font/sf/SFCompactText-Light.eot');
-    src: url('font/sf/SFCompactText-Light.eot?#iefix') format('embedded-opentype'), url('SFCompactText-Light.woff2') format('woff2'), url('SFCompactText-Light.woff') format('woff'), url('SFCompactText-Light.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-Light.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Light.woff2') format('woff2'), url('font/sf/SFCompactText-Light.woff') format('woff'), url('font/sf/SFCompactText-Light.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -39,7 +39,7 @@
 @font-face {
     font-family: 'SFCompact-light-italic';
     src: url('font/sf/SFCompactText-LightItalic.eot');
-    src: url('font/sf/SFCompactText-LightItalic.eot?#iefix') format('embedded-opentype'), url('SFCompactText-LightItalic.woff2') format('woff2'), url('SFCompactText-LightItalic.woff') format('woff'), url('SFCompactText-LightItalic.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-LightItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-LightItalic.woff2') format('woff2'), url('font/sf/SFCompactText-LightItalic.woff') format('woff'), url('font/sf/SFCompactText-LightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
     font-display: swap;
@@ -48,7 +48,7 @@
 @font-face {
     font-family: 'SFCompact-regular';
     src: url('font/sf/SFCompactText-Regular.eot');
-    src: url('font/sf/SFCompactText-Regular.eot?#iefix') format('embedded-opentype'), url('SFCompactText-Regular.woff2') format('woff2'), url('SFCompactText-Regular.woff') format('woff'), url('SFCompactText-Regular.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-Regular.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Regular.woff2') format('woff2'), url('font/sf/SFCompactText-Regular.woff') format('woff'), url('font/sf/SFCompactText-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -57,7 +57,7 @@
 @font-face {
     font-family: 'SFCompact-regular-italic';
     src: url('font/sf/SFCompactText-RegularItalic.eot');
-    src: url('font/sf/SFCompactText-RegularItalic.eot?#iefix') format('embedded-opentype'), url('SFCompactText-RegularItalic.woff2') format('woff2'), url('SFCompactText-RegularItalic.woff') format('woff'), url('SFCompactText-RegularItalic.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-RegularItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-RegularItalic.woff2') format('woff2'), url('font/sf/SFCompactText-RegularItalic.woff') format('woff'), url('font/sf/SFCompactText-RegularItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -66,7 +66,7 @@
 @font-face {
     font-family: 'SFCompact-medium';
     src: url('font/sf/SFCompactText-Medium.eot');
-    src: url('font/sf/SFCompactText-Medium.eot?#iefix') format('embedded-opentype'), url('SFCompactText-Medium.woff2') format('woff2'), url('SFCompactText-Medium.woff') format('woff'), url('SFCompactText-Medium.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-Medium.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Medium.woff2') format('woff2'), url('font/sf/SFCompactText-Medium.woff') format('woff'), url('font/sf/SFCompactText-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -75,7 +75,7 @@
 @font-face {
     font-family: 'SFCompact-medium-italic';
     src: url('font/sf/SFCompactText-MediumItalic.eot');
-    src: url('font/sf/SFCompactText-MediumItalic.eot?#iefix') format('embedded-opentype'), url('SFCompactText-MediumItalic.woff2') format('woff2'), url('SFCompactText-MediumItalic.woff') format('woff'), url('SFCompactText-MediumItalic.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-MediumItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-MediumItalic.woff2') format('woff2'), url('font/sf/SFCompactText-MediumItalic.woff') format('woff'), url('font/sf/SFCompactText-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -84,7 +84,7 @@
 @font-face {
     font-family: 'SFCompact-semibold-italic';
     src: url('font/sf/SFCompactText-SemiboldItalic.eot');
-    src: url('font/sf/SFCompactText-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('SFCompactText-SemiboldItalic.woff2') format('woff2'), url('SFCompactText-SemiboldItalic.woff') format('woff'), url('SFCompactText-SemiboldItalic.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-SemiboldItalic.woff2') format('woff2'), url('font/sf/SFCompactText-SemiboldItalic.woff') format('woff'), url('font/sf/SFCompactText-SemiboldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -93,7 +93,7 @@
 @font-face {
     font-family: 'SFCompact-semibold';
     src: url('font/sf/SFCompactText-Semibold.eot');
-    src: url('font/sf/SFCompactText-Semibold.eot?#iefix') format('embedded-opentype'), url('SFCompactText-Semibold.woff2') format('woff2'), url('SFCompactText-Semibold.woff') format('woff'), url('SFCompactText-Semibold.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-Semibold.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Semibold.woff2') format('woff2'), url('font/sf/SFCompactText-Semibold.woff') format('woff'), url('font/sf/SFCompactText-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -102,7 +102,7 @@
 @font-face {
     font-family: 'SFCompact-bold';
     src: url('font/sf/SFCompactText-Bold.eot');
-    src: url('font/sf/SFCompactText-Bold.eot?#iefix') format('embedded-opentype'), url('SFCompactText-Bold.woff2') format('woff2'), url('SFCompactText-Bold.woff') format('woff'), url('SFCompactText-Bold.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-Bold.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Bold.woff2') format('woff2'), url('font/sf/SFCompactText-Bold.woff') format('woff'), url('font/sf/SFCompactText-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -111,7 +111,7 @@
 @font-face {
     font-family: 'SFCompact-bold-italic';
     src: url('font/sf/SFCompactText-BoldItalic.eot');
-    src: url('font/sf/SFCompactText-BoldItalic.eot?#iefix') format('embedded-opentype'), url('SFCompactText-BoldItalic.woff2') format('woff2'), url('SFCompactText-BoldItalic.woff') format('woff'), url('SFCompactText-BoldItalic.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-BoldItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-BoldItalic.woff2') format('woff2'), url('font/sf/SFCompactText-BoldItalic.woff') format('woff'), url('font/sf/SFCompactText-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -120,7 +120,7 @@
 @font-face {
     font-family: 'SFCompact-heavy';
     src: url('font/sf/SFCompactText-Heavy.eot');
-    src: url('font/sf/SFCompactText-Heavy.eot?#iefix') format('embedded-opentype'), url('SFCompactText-Heavy.woff2') format('woff2'), url('SFCompactText-Heavy.woff') format('woff'), url('SFCompactText-Heavy.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-Heavy.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Heavy.woff2') format('woff2'), url('font/sf/SFCompactText-Heavy.woff') format('woff'), url('font/sf/SFCompactText-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -129,7 +129,7 @@
 @font-face {
     font-family: 'SFCompact-heavy-italic';
     src: url('font/sf/SFCompactText-HeavyItalic.eot');
-    src: url('font/sf/SFCompactText-HeavyItalic.eot?#iefix') format('embedded-opentype'), url('SFCompactText-HeavyItalic.woff2') format('woff2'), url('SFCompactText-HeavyItalic.woff') format('woff'), url('SFCompactText-HeavyItalic.ttf') format('truetype');
+    src: url('font/sf/SFCompactText-HeavyItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-HeavyItalic.woff2') format('woff2'), url('font/sf/SFCompactText-HeavyItalic.woff') format('woff'), url('font/sf/SFCompactText-HeavyItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
