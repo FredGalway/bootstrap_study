@@ -15,7 +15,6 @@ function toggle() {
     }
 }
 
-
 // Pour les interfaces mobiles, lancement des fonctions ci-dessous.
 // Fermeture automatique du menu bootstrap depuis fonction Jquery 
 // Appel à ma fonction toggle() pour basculement automatique d'icône
