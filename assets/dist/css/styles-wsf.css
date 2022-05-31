@@ -1,7 +1,17 @@
-/* WSF CSS STYLES */
+/* 
+
+  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+  :::::::::::::::::::                                    :::::::::::::::::::
+  :::::::::::::::::::           WSF CSS STYLES           :::::::::::::::::::
+  :::::::::::::::::::                                    :::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+*/
 
 
-/* Fonts / Body bootstrap
+/* 
+--------------------------------------------------------------------------------------------------------
+Fonts / Body bootstrap
 -------------------------------------------------------------------------------------------------------- */
 
  :root {
@@ -21,7 +31,9 @@
 }
 
 
-/* Couleurs charte 
+/* 
+--------------------------------------------------------------------------------------------------------
+Couleurs charte 
 -------------------------------------------------------------------------------------------------------- */
 
 .blue {
@@ -45,7 +57,9 @@
 }
 
 
-/* HEADER / Navigation 
+/* 
+--------------------------------------------------------------------------------------------------------
+HEADER / Navigation 
 -------------------------------------------------------------------------------------------------------- */
 
 
@@ -113,68 +127,9 @@
 }
 
 
-/* MOBILE MENU 
--------------------------------------------------------------------------------------------------------- */
-
-.navbar-dark {
-    --bs-navbar-toggler-icon-bg: none;
-}
-
-.navbar-toggler {
-    color: #222;
-    border: 0;
-}
-
-.navbar-toggler-icon {
-    background-image: url("img/nav-bt-open.svg");
-    width: 21px;
-    height: 21px;
-}
-
-@media (max-width: 1130px) {
-    .nav-link {
-        display: block;
-        background-color: #333;
-        margin: 3% 3% 0 3%;
-        border-radius: 8px;
-        height: 50px;
-        padding-bottom: -30px;
-        line-height: 2em;
-        text-align: center;
-        color: white;
-    }
-    .nav-item a:hover {
-        background-color: #00AEEF;
-        color: #FFF;
-    }
-    .sn {
-        display: flex;
-        justify-content: center;
-        padding: 40px 0 60px 0;
-        font-size: 70px;
-        overflow: hidden;
-    }
-    .sn li {
-        display: block;
-        width: auto;
-        height: auto;
-        text-align: center;
-        padding: 0;
-        margin: 0 3% 0 3%;
-    }
-    .sn li a {
-        display: block;
-        width: 57px;
-        height: 57px;
-        border-radius: 50%;
-        font-size: 75px;
-        line-height: 75px;
-        clip-path: circle(30px at 32px);
-    }
-}
-
-
-/* Carousel images
+/* 
+--------------------------------------------------------------------------------------------------------
+Carousel images
 -------------------------------------------------------------------------------------------------------- */
 
 .carousel-banner-img-1 {
@@ -208,7 +163,9 @@
 }
 
 
-/* Partie Logo et accroches 
+/* 
+--------------------------------------------------------------------------------------------------------
+Partie Logo et accroches 
 -------------------------------------------------------------------------------------------------------- */
 
 .logo-wsf {
@@ -253,7 +210,93 @@
 }
 
 
-/* Heading Columns part and numbers : 
+/* 
+--------------------------------------------------------------------------------------------------------
+MAIN Part : 
+-------------------------------------------------------------------------------------------------------- */
+
+main section {
+    margin: 65px 55px 0 55px;
+}
+
+main section h1 {
+    font-family: 'SFCompact-thin-italic';
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.drop_txt {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/logo-sigle.svg");
+    background-repeat: no-repeat;
+    float: left;
+    margin: 15px 15px 0 0;
+}
+
+main section p {
+    font-family: 'SFCompact-light';
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.event {
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-image: url("img/air-kite-challenge.jpg");
+    background-repeat: no-repeat;
+    background-image: center;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.event h1 {
+    font-family: 'SFCompact-thin';
+    font-size: 54px;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 100px
+}
+
+.event h2 {
+    font-family: 'SFCompact-thin';
+    font-size: 35px;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.bt-to-know-more {
+    position: relative;
+    display: block;
+    width: 190px;
+    height: 44px;
+    padding-top: 28px;
+    z-index: 10;
+}
+
+.event-sponsors {
+    position: relative;
+    display: block;
+    width: 305px;
+    height: 54px;
+    background-image: url(img/event-sponsors.png);
+    background-repeat: no-repeat;
+    right: 7px;
+    float: right;
+    bottom: 30px;
+}
+
+
+/* 
+--------------------------------------------------------------------------------------------------------
+Mobile Heading Columns part and numbers : 
 -------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 1130px) {
@@ -262,14 +305,10 @@
     }
 }
 
-@media (max-width: 1130px) {
-    .row>* {
-        width: 100%;
-    }
-}
 
-
-/* FOOTER : 
+/* 
+--------------------------------------------------------------------------------------------------------
+FOOTER 
 -------------------------------------------------------------------------------------------------------- */
 
 #footer {
@@ -283,7 +322,7 @@
     height: 310px;
     background-color: #222;
     overflow: hidden;
-    padding: 60px 130px 60px 100px
+    padding: 0px 130px 60px 100px
 }
 
 .footer_columns {
@@ -316,33 +355,34 @@ footer h5 {
 /* Logo sans sigle */
 
 #footer_column1 {
-    margin-top: -55px;
+    margin-top: 20px;
 }
 
 #footer_column1 a {
-    margin,
-    padding: 0;
-    display: flex;
-    height: 120px;
+    display: block;
+    height: 50px;
     width: auto;
-    flex-direction: no-wrap;
-    justify-content: left;
-    align-items: center;
     margin-top: 0px;
     margin-left: 60px;
     font-size: 50px;
+    line-height: 115px;
 }
 
 #footer_column1 .logo-sigle {
     display: block;
-    position: static;
+    position: relative;
     width: 50px;
     height: 50px;
     font-size: 65px;
     line-height: 65px;
     clip-path: circle(28px at 30px);
     margin-right: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
+    float: left;
+}
+
+#footer_contact {
+    margin-top: 70px;
 }
 
 #footer_column2a,
@@ -352,8 +392,9 @@ footer h5 {
 
 #footer_column3 {
     display: block;
-    width: 160px;
+    width: 210px;
     height: auto;
+    overflow: visible;
 }
 
 #footer_column3 ul {
@@ -364,7 +405,7 @@ footer h5 {
 
 #footer_column3 ul li {
     font-family: 'SFCompact-light';
-    font-size: 12.5px;
+    font-size: 12px;
     line-height: 24px;
     display: flex;
     flex-direction: no-wrap;
@@ -404,165 +445,4 @@ footer h5 {
 
 #footer_infos a {
     color: #555;
-}
-
-
-/* MOBILE FOOTER
--------------------------------------------------------------------------------------------------------- */
-
-@media (max-width: 1130px) {
-    #footer {
-        display: block;
-        position: absolute;
-        margin,
-        padding: 0;
-        width: 100%;
-        height: 1450px;
-        background-color: #222;
-        overflow: none;
-        padding: 60px 130px 60px 100px;
-    }
-    #footer * {
-        display: block;
-        width,
-        height: auto;
-        width: 500px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #footer .footer_column {
-        border: 0.5px solid;
-        border-color: #222;
-    }
-    #footer_column2a::before {
-        display: block;
-        font-family: 'SFCompact-light';
-        font-size: 14px;
-        content: "Parties du site :";
-        margin-bottom: 30px;
-    }
-    #footer_column2a,
-    #footer_column2b {
-        width: 110px;
-    }
-    #footer .nav-link {
-        display: block;
-        background-color: #222;
-        margin,
-        padding: 0;
-        border-radius: 0;
-        height: auto;
-        padding-bottom: 0;
-        line-height: 16px;
-        text-align: center;
-        color: white;
-        margin: 0;
-        width: 110px;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    #footer .nav-item a:hover {
-        background-color: #222;
-        color: #00AEEF;
-    }
-    .footer_columns {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #footer_logo {
-        height: 60px;
-        width: auto;
-        border: 0.5px solid;
-        border-color: #222;
-        background-image: url("img/footer-logo.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 50px 0 120px 0;
-    }
-    #footer_logo::after {
-        display: block;
-        margin-top: 130px;
-        font-family: 'SFCompact-light';
-        font-size: 14px;
-        content: "Nous contacter :";
-    }
-    #footer_column1 a {
-        display: none;
-    }
-    #footer_column2b {
-        margin-top: -5px;
-        margin-bottom: 50px;
-    }
-    #footer_column3 h4 {
-        margin-bottom: 30px;
-    }
-    #footer_column3 {
-        margin: 0;
-        width: 300px;
-        margin-bottom: 80px;
-    }
-    #footer_column3 strong {
-        text-align: right;
-        width: 80px;
-        margin-right: -100px;
-    }
-    #footer_column3 span {
-        text-align: left;
-        width: 100px;
-    }
-    #footer_column4 .sn {
-        display: flex;
-        flex-direction: row;
-        width: 250px;
-        height: 100px;
-        margin-bottom: 100px;
-    }
-    #footer_column4::before {
-        font-family: 'SFCompact-light';
-        font-size: 14px;
-        content: "Retrouvez-nous sur :";
-    }
-    #footer_contact {
-        margin-top: 80px;
-    }
-    #footer_infos {
-        color: #777;
-    }
-}
-
-
-/* hack du sigle pour Firefox 
--------------------------------------------------------------------------------------------------------- */
-
-@-moz-document url-prefix() {
-    /* .logo-sigle {
-        top: 7px;
-    }
-    body {
-        font-family: Roboto;
-        font-weight: 200;
-        font-style: normal;
-        color: #fff;
-        /* Chrome, Safari, Edge */
-}
-
-
-}
-
-/* hack du sigle pour Safari 
--------------------------------------------------------------------------------------------------------- */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* .logo-sigle {
-        top: 7px;
-    }
-    body {
-        font-family: "helvetica";
-        font-weight: 200;
-        font-style: normal;
-        color: #fff;
-        /* Chrome, Safari, Edge */
-}
-
 }

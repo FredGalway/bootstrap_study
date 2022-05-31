@@ -28,6 +28,24 @@
 -------------------------------------------------------------------------------------------------------- */
 
 @font-face {
+    font-family: 'SFCompact-thin';
+    src: url('font/sf/SFCompactDisplay-Thin.eot');
+    src: url('font/sf/SFCompactDisplay-Thin.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactDisplay-Thin.woff2') format('woff2'), url('font/sf/SFCompactDisplay-Thin.woff') format('woff'), url('font/sf/SFCompactDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFCompact-thin-italic';
+    src: url('font/sf/SFProDisplay-ThinItalic.eot');
+    src: url('font/sf/SFProDisplay-ThinItalic.eot?#iefix') format('embedded-opentype'), url('font/sf/SFProDisplay-ThinItalic.woff2') format('woff2'), url('font/sf/SFProDisplay-ThinItalic.woff') format('woff'), url('font/sf/SFProDisplay-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'SFCompact-light';
     src: url('font/sf/SFCompactText-Light.eot');
     src: url('font/sf/SFCompactText-Light.eot?#iefix') format('embedded-opentype'), url('font/sf/SFCompactText-Light.woff2') format('woff2'), url('font/sf/SFCompactText-Light.woff') format('woff'), url('font/sf/SFCompactText-Light.ttf') format('truetype');
