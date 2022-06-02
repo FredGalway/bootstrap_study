@@ -422,12 +422,78 @@ Localisation Map
 
 #localisation iframe {
     width: 100%;
-    height: 350px;
+    height: 450px;
     margin-bottom: 40px;
+    pointer-events: none;
+}
+
+address {
+    font-size: 14px;
+    line-height: 25px;
 }
 
 address strong {
     font-family: 'SFCompact-semibold';
+    font-size: 14px;
+    line-height: 12px;
+}
+
+
+/* 
+--------------------------------------------------------------------------------------------------------
+Partners WSF
+-------------------------------------------------------------------------------------------------------- */
+
+.group_partners {
+    display: flex;
+    flex-direction: row;
+}
+
+.partner {
+    width: 100%;
+    margin: 0 15px 80px 15px;
+}
+
+.redbull {
+    background-image: url(img/logo-redbull.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ministere {
+    background-image: url(img/logo-ministere.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.france3 {
+    background-image: url(img/logo-france3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ffv {
+    background-image: url(img/logo-ffv.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.occitanie {
+    background-image: url(img/logo-occitanie.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.partner h3 {
+    font-family: 'SFCompact-thin';
+    font-size: 14px;
+}
+
+.logo_partner {
+    height: 130px;
+    background-color: #E6E7E8;
+    margin-bottom: 60px;
+    margin: 20px 1.3% 30px 1.3%;
 }
 
 
