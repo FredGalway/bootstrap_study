@@ -622,6 +622,7 @@ footer h5 {
 #footer_column4 .sn {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
 }
 
 #footer_column4 .sn li a {
@@ -636,7 +637,7 @@ footer h5 {
 }
 
 #footer_infos {
-    display: block;
+    display: inline;
     position: relative;
     width: auto;
     bottom: 10px;
