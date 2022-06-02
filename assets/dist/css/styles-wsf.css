@@ -28,6 +28,17 @@ Fonts / Body bootstrap
     --bs-body-font-weight: 100;
     --bs-body-line-height: 1.5;
     --bs-navbar-font-family: var(--bs-font-sans-serif);
+    /* links */
+    --bs-link-color: #00AEEF;
+    --bs-link-hover-color: #00AEEF;
+}
+
+
+/* Ajustement auteur de l'ancrage */
+
+section:target {
+    padding-top: 5.7em;
+    margin-top: -5.7em;
 }
 
 
@@ -343,16 +354,13 @@ main section p {
 .group_activities {
     display: flex;
     flex-direction: no-wrap;
-}
-
-.group_activities {
     margin: 0 -30px 0 -30px;
 }
 
 .activities {
     color: white;
     margin-bottom: 60px;
-    margin: 20px 1.3% 0 1.3%;
+    margin: 20px 1.3% 30px 1.3%;
 }
 
 .photo_activities {
@@ -362,6 +370,11 @@ main section p {
 .activities aside {
     background-color: #333;
     padding: 20px 30px 10px 30px;
+    height: 160px;
+}
+
+.team aside {
+    height: 100px;
 }
 
 .activities .drop_txt {
@@ -382,6 +395,39 @@ main section p {
 .activities aside p {
     font-family: 'SFCompact-thin';
     font-size: 0.9em;
+}
+
+.activities aside a {
+    font-family: 'SFCompact-semibold';
+    font-size: 0.9em;
+}
+
+#challenge {
+    margin-bottom: 50px;
+}
+
+#lessons {
+    margin-bottom: 40px;
+}
+
+#presentation {
+    margin-bottom: 50px;
+}
+
+
+/* 
+--------------------------------------------------------------------------------------------------------
+Localisation Map 
+-------------------------------------------------------------------------------------------------------- */
+
+#localisation iframe {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+address strong {
+    font-family: 'SFCompact-semibold';
 }
 
 
