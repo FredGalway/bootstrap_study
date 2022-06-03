@@ -150,6 +150,9 @@ Carousel images
          padding: 0;
          margin: 0;
      }
+     .video_challenge_article {
+         width: 100%;
+     }
      /*
 
  /*
@@ -159,7 +162,7 @@ Challenge Figures list
 ---------------------------------------------------------------------------------------------------- */
      .challenge-figures {
          width: 100%;
-         height: 500px;
+         height: 400px;
      }
      .challenge-figures-list {
          width: 100%;

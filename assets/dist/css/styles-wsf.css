@@ -378,7 +378,7 @@ main section p {
 .challenge-figures {
     display: block;
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 .challenge-figures-list {
@@ -400,6 +400,13 @@ main section p {
     margin: 0 -30px 0 -30px;
 }
 
+.group_videos {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+    justify-content: space-between;
+}
+
 .activities {
     color: white;
     margin-bottom: 60px;
@@ -410,9 +417,13 @@ main section p {
     width: 100%;
 }
 
+.video_challenge_article {
+    width: 32%;
+}
+
 .video_challenge {
     display: flex;
-    width: 24em;
+    width: 100%;
     height: 375px;
     border: none;
     padding: 0;
