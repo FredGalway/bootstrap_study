@@ -42,11 +42,26 @@ function collapseMenu() {
 
 collapseMenu();
 
+// Fonctionnalité pour connaitre la taille des appareils en Responsive
+
 $([document, window]).on('ready resize', function(e) {
     console.log($(window).width());
 
+    if ($(window).width() >= 1130) {
+        console.log("Desktop screens");
+        collapseMenu();
+
+    }
+
     if ($(window).width() <= 1130) {
-        console.log("Mobile screen");
+        console.log("Tablet screens");
+        collapseMenu();
+
+    }
+    if ($(window).width() <= 390) {
+        console.log("Width 390px");
+        console.log("Mobile Redmi Androïd Pro screen");
+        console.log("iPhone 12 screen");
         collapseMenu();
 
     }
