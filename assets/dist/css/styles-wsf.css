@@ -298,7 +298,7 @@ main section h1 {
 
 main section p {
     font-family: 'SFCompact-light';
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     text-align: justify;
     text-justify: inter-word;
@@ -397,14 +397,14 @@ main section p {
 .group_activities {
     display: flex;
     flex-direction: no-wrap;
-    margin: 0 -30px 0 -30px;
+    margin: 0 -20px 0 -20px;
 }
 
 .group_videos {
     display: flex;
     flex-direction: row;
-    margin: 0 0 0 0;
     justify-content: space-between;
+    margin: 0;
 }
 
 .activities {

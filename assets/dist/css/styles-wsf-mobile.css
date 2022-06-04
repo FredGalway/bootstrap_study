@@ -2,7 +2,7 @@
 
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::
-  :::::::::::::::::::   WSF MOBILE CSS STYLES:::::::::::::::::::
+  :::::::::::::::::::   WSF MOBILE CSS STYLES  :::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -67,11 +67,31 @@ MOBILE MENU
      /* 
 
 ----------------------------------------------------------------------------------------------------
-Page up Page Down
+Page up Page Down / Bt Back Home
 ---------------------------------------------------------------------------------------------------- */
      .page_up,
      .page_down {
          margin: 20px 0 40px 0;
+     }
+     .bt-back-home {
+         margin: 40px 15px 10px 30px;
+     }
+     /* 
+
+----------------------------------------------------------------------------------------------------
+Main part / Text / Font size / Margin 
+---------------------------------------------------------------------------------------------------- */
+     main section {
+         margin: 65px 30px 0 30px;
+     }
+     main section h1 {
+         font-size: 23px;
+         line-height: 34px;
+         margin-bottom: 30px;
+     }
+     main section p {
+         font-size: 16px;
+         text-align: justify;
      }
      /* 
 
@@ -104,9 +124,6 @@ Main part / Challenge
          font-size: 20px;
          padding-top: 230px;
      }
-     .bt-to-know-more {
-         padding-top: 26px;
-     }
      .event-sponsors {
          display: none;
      }
@@ -134,10 +151,19 @@ Carousel images
      /*
 
  ----------------------------------------------------------------------------------------------------
- Article Activities
+ Article Activities / Videos
  ---------------------------------------------------------------------------------------------------- */
      .group_activities {
          flex-direction: column;
+         margin: 0 -30px 0 -30px;
+     }
+     .group_videos {
+         margin: 0 -30px 0 -30px;
+     }
+     .activities {
+         color: white;
+         margin-bottom: 60px;
+         margin: 20px 30px 30px 30px;
      }
      .activities aside {
          height: auto;
@@ -147,8 +173,6 @@ Carousel images
          width: 100%;
          height: 375px;
          border: none;
-         padding: 0;
-         margin: 0;
      }
      .video_challenge_article {
          width: 100%;
@@ -224,15 +248,6 @@ MOBILE FOOTER
      }
      .drop_txt {
          margin: 5px 15px 0 0;
-     }
-     main section h1 {
-         font-size: 23px;
-         line-height: 34px;
-         margin-bottom: 30px;
-     }
-     main section p {
-         font-size: 17px;
-         text-align: left;
      }
      #footer_column2a::before {
          display: block;
@@ -336,8 +351,23 @@ END @media (max-width: 1130px)
  */
  }
  /* 
-
---------------------------------------------------------------------------------------------------------
+     --------------------------------------------------------------------------------------------------------
+ Smartphone Exeptions
+-------------------------------------------------------------------------------------------------------- */
+ 
+ @media only screen and (min-width: 590px) and (max-width: 1130px) {
+     .bt-to-know-more {
+         padding-top: 40px;
+     }
+ }
+ 
+ @media only screen and (min-width: 350px) and (max-width: 590px) {
+     .bt-to-know-more {
+         padding-top: 16px;
+     }
+ }
+ /* 
+     --------------------------------------------------------------------------------------------------------
  For IPAD && Tablettes
 -------------------------------------------------------------------------------------------------------- */
  
@@ -348,8 +378,3 @@ END @media (max-width: 1130px)
      }
  }
  /*
-
-/* 
---------------------------------------------------------------------------------------------------------
-Test Smartphones
--------------------------------------------------------------------------------------------------------- */
